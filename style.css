@@ -2,30 +2,38 @@
 
 body{
   font-family: 'Noto Sans Mono', monospace;
-  background-color: #292642;
-  color: #ddd9fc;
+  background-color: black;
+  color: green;
+}
+
+h1 {
+  background-color: black;
+  color: green;
+  text-align: center;
 }
 
 button{
-  background-color:#bcb5ff;
+  background-color: green;
   border:none;
   border-radius:8px;
   text-decoration: none;
   padding: 10px 30px;
   margin:15px;
   font-family: 'Noto Sans Mono', monospace;
+  font-weight: bold;
+  min-width: 20%;
 }
 
 button:hover{
-  background-color:#8f86eb;
-  color:#b3adee;
+  background-color: darkgreen;
+  color: lightgreen;
   box-shadow: 2px 4px;
 }
 
 .wrapper{ 
- position: fixed;
- top: 25%; 
- left: 35%; 
+  position: fixed;
+  top: 30%; 
+  left: 35%; 
   margin: auto; 
   display: flex; 
   flex-direction:column;
@@ -33,13 +41,15 @@ button:hover{
   justify-content:space-between;
   align-items:center;
   
-  border: 3px ridge #bcb5ff; 
-  border-radius:1rem; 
+  border-left: 3px ridge green;
+  border-right: 3px ridge green; 
+  border-radius: 3rem; 
   width: 30%;
 
   
 }
 
 .displayTime{
-  margin: 15px;
+  margin: 10px 0px 20px;
+  font-size: 25px;
 }
